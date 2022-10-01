@@ -293,9 +293,7 @@ const SpeakingExam = () => {
             다음
           </GetNextProblemButton>
         ) : (
-          <GetNextProblemButton onClick={getNextQuestion} answer={answer}>
-            다음
-          </GetNextProblemButton>
+          
         )}
       </Wrapper>
     </Main>
