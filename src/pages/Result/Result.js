@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
-import Result1 from "./Result1";
 import Result1Graph from "./Result1Graph";
 import "../../App.css";
 import Result1RadarChart from "./Result1RadarChart";
@@ -80,7 +79,6 @@ const Result = () => {
 
         <Content>
           <ResultPersonalInfo />
-          <Result1 result={result} />
           <div style={{ display: "flex", marginTop: "20px" }}>
             <Result1RadarChart result={result} />
             <Result1Graph result={result} />
