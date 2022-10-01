@@ -14,7 +14,7 @@ const Info = styled.div`
 
 const 
 
-const ResultPersonalInfo = (prop) => {
+const ResultPersonalInfo = () => {
   return (
     <Main>
       <Info>1. 응시자 개인 정보</Info>
