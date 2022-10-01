@@ -81,22 +81,6 @@ const GetNextProblemButton = styled.button.attrs((prop) => ({}))`
   pointer-events: ${(prop) => (prop.answer === "" ? "none" : "")};
 `;
 
-const GetResultPage = styled(Link).attrs((prop) => ({}))`
-  border: none;
-  border-radius: 15px;
-  font-family: jua;
-  font-size: 15px;
-  padding: 3px 30px 3px 30px;
-  background-color: ${(prop) => (prop.answer === "" ? "#CFD2CF" : "#97d2ec")};
-  margin: 15px 0px 0px 0px;
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  &:hover {
-    cursor: pointer;
-  }
-  pointer-events: ${(prop) => (prop.answer === "" ? "none" : "")};
-`;
 
 const NarrativeInput = styled.input`
   width: 300px;
@@ -310,9 +294,7 @@ const SpeakingTestOrigin2 = () => {
             다음
           </GetNextProblemButton>
         ) : (
-          <GetResultPage to="/select-test" answer={answer}>
-            제출하기
-          </GetResultPage>
+          
         )}
       </AllDiv>
     </WrapperDiv>
