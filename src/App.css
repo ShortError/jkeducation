@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Jua;
+  src: url("/public/font/jua/Jua-Regular.woff");
+}
+
+@font-face {
+  font-family: Noto-Regular;
+  src: url("/public/font/noto/NotoSansKR-Regular.woff");
+}
+
+@font-face {
+  font-family: Noto-Bold;
+  src: url("/public/font/noto/NotoSansKR-Bold.woff");
+}
+
+@font-face {
+  font-family: SCDream1;
+  src: url("/public/font/SCDream/SCDream1.otf");
+}
+
+@font-face {
+  font-family: SCDream5;
+  src: url("/public/font/SCDream/SCDream5.otf");
+}
+
+@font-face {
+  font-family: SCDream9;
+  src: url("/public/font/SCDream/SCDream9.otf");
+}
