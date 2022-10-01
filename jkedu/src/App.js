@@ -18,7 +18,7 @@ import SelectExam from "./pages/Exam/AboutExam/SelectExam";
 import Intro from "./pages/Intro/Intro";
 import MyPage from "./pages/MyPage/MyPage";
 import Testing from "./pages/Exam/ExamPage/Testing";
-import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";
+import ListeningExam from "./pages/Exam/ExamPage/ListeningExam"; 
 
 const AllWrapper = styled.div`
   display: flex;
