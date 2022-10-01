@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
 import "../../App.css";
-import Result1RadarChart from "./Result1RadarChart";
+
 
 const Main = styled.div`
   box-sizing: border-box;
