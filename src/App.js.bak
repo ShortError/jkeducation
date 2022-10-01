@@ -6,7 +6,7 @@ import styled from "styled-components";
 import Curriculum from "./pages/Curriculum/Curriculum";
 import TimeSchedule from "./pages/TimeSchedule/TImeSchedule";
 import Payment from "./pages/Payment/Payment";
-import SignUp from "./pages/Account/SignUp";
+
 import Login from "./pages/Account/Login";
 import Main from "./pages/Main/Main";
 import Management from "./pages/Management/Management";
@@ -15,8 +15,10 @@ import ExamPrivacy from "./pages/Exam/AboutExam/ExamPrivacy";
 import SpeakingExam from "./pages/Exam/ExamPage/SpeakingExam";
 import SelectExam from "./pages/Exam/AboutExam/SelectExam";
 import Intro from "./pages/Intro/Intro";
-import MyPage from "./pages/MyPage/MyPage";
-import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";
+
+/*import MyPage from "./pages/MyPage/MyPage";
+import SignUp from "./pages/Account/SignUp";
+import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";*/
 
 const AllWrapper = styled.div`
   display: flex;
