@@ -5,7 +5,6 @@ import Result1 from "./Result1";
 import Result1Graph from "./Result1Graph";
 import "../../App.css";
 import Result1RadarChart from "./Result1RadarChart";
-import ResultPersonalInfo from "./ResultPersonalInfo";
 
 const Main = styled.div`
   box-sizing: border-box;
