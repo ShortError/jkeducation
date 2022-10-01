@@ -3,7 +3,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Aside from "./components/SideBar/SideBar";
 import styled from "styled-components";
-import Result from "./pages/Result/Result";
 import Curriculum from "./pages/Curriculum/Curriculum";
 import TimeSchedule from "./pages/TimeSchedule/TImeSchedule";
 import Payment from "./pages/Payment/Payment";
