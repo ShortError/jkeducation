@@ -15,8 +15,8 @@ import ExamPrivacy from "./pages/Exam/AboutExam/ExamPrivacy";
 import SpeakingExam from "./pages/Exam/ExamPage/SpeakingExam";
 import SelectExam from "./pages/Exam/AboutExam/SelectExam";
 import Intro from "./pages/Intro/Intro";
-import MyPage from "./pages/MyPage/MyPage";
-import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";
+/*import MyPage from "./pages/MyPage/MyPage";*/
+/*import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";*/
 
 const AllWrapper = styled.div`
   display: flex;
