@@ -17,8 +17,10 @@ import SelectExam from "./pages/Exam/AboutExam/SelectExam";
 import Intro from "./pages/Intro/Intro";
 
 import MyPage from "./pages/MyPage/MyPage";
-import SignUp from "./pages/Account/SignUp";
+
 import ListeningExam from "./pages/Exam/ExamPage/ListeningExam";
+
+/* import SignUp from "./pages/Account/SignUp"; */
 
 const AllWrapper = styled.div`
   display: flex;
@@ -32,9 +34,6 @@ const ContentWrapper = styled.div`
 
 
 function App() {
-
-
-
   return (
     <AllWrapper>
       <ContentWrapper>
